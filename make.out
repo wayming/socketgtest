@@ -1,0 +1,2 @@
+g++ -c -Wall -I ./googletest-release-1.10.0/install/include string-compare.cpp
+g++ -o string-compare main.o string-compare.o -L ./googletest-release-1.10.0/install/lib64 -l gtest -l pthread
